@@ -1,0 +1,52 @@
+body{
+  text-align: center;
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+h1 :hover{
+  color:lightskyblue;
+}
+.navbar{
+  text-decoration: none;
+  padding: 20px;
+}
+
+.navbar *{
+  color:black;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.navbar *:hover{
+
+  color: blueviolet;
+}
+.productContainer {
+
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.productContainer > .link {
+  color:grey;
+  text-decoration: none;
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  box-shadow: 0 0 5px lightskyblue;
+  margin: 40px;
+  transition: background-color .5s ease-out 100ms
+}
+
+.productContainer > .link:hover {
+  color: black;
+  background-color: #b2b2b2;
+  height:300px;
+  width:300px;
+}
+
+.productContainer > .link img{
+  height: 150px;
+  width: 150px;
+  border-radius: 80px;
+}
